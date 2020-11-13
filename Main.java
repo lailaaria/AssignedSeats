@@ -16,6 +16,6 @@ class Main {
     System.out.println("What is your first name?");
     String name = scan.next();
 
-    System.out.println(name);
+    students[0] = name; 
   }
 }
