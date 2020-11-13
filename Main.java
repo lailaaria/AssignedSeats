@@ -8,7 +8,6 @@ class Main {
     for(int i = 0; i < students.length; i++){
       System.out.println(students[i]);
     }
-
-      
+    System.out.println("What are the students' names?");     
   }
 }
