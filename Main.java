@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
     
@@ -7,7 +9,10 @@ class Main {
 
     for(int i = 0; i < students.length; i++){
       System.out.println(students[i]);
-    }
-    System.out.println("What are the students' names?");     
+    }  
+
+    Scanner scan = new Scanner(System.in)   
+
+    System.out.println("What is your first name?");
   }
 }
