@@ -11,8 +11,11 @@ class Main {
       System.out.println(students[i]);
     }  
 
-    Scanner scan = new Scanner(System.in)   
+    Scanner scan = new Scanner(System.in);   
 
     System.out.println("What is your first name?");
+    String name = scan.next();
+
+    System.out.println(name);
   }
 }
